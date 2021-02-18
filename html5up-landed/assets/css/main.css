@@ -3399,6 +3399,21 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 		}
+		
+		.h1z {
+			color: orange;
+			display: flex; 
+			justify-content: center;
+		}
+
+		.h2z {
+			font-family: cursive;
+			color: #5ee44c;
+		}
+
+		.speedlogo {
+			width: 15vw;
+		}
 
 		#header nav {
 			position: absolute;
@@ -4117,5 +4132,12 @@ input, select, textarea {
 						margin: 0;
 						padding: 0;
 					}
+			.beachpic {
+				height: 5vw;
+			}
+
+			.speedlogo {
+				background-color: red;
+			}
 
 	}
