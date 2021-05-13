@@ -665,8 +665,9 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 90%;
+				/* width: 90%; */
 				max-width: 100%;
+				width: max-content;
 			}
 
 		}
@@ -3401,9 +3402,25 @@ input, select, textarea {
 		}
 		
 		.h1z {
-			color: orange;
+			color: #5ee44c;
 			display: flex; 
 			justify-content: center;
+			font-family: cursive;
+			font-size: 3vw;
+			margin-bottom: 0;
+		}
+
+		.h1zz {
+			color: #5ee44c;
+			display: flex; 
+			justify-content: center;
+			font-size: 3vw;
+		}
+
+		.pz {
+			text-align: center;
+			
+
 		}
 
 		.h2z {
@@ -3413,8 +3430,30 @@ input, select, textarea {
 
 		.speedlogo {
 			width: 15vw;
+			margin: -4vw;
 		}
 
+		.xlx {
+			display: flex;
+			align-items: center;
+			flex-flow: column;
+		}
+
+		.flex-container {
+			padding: 0;
+			margin: 0;
+			/* outline: 1px solid red; */
+			margin: 2em auto;
+			
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-flex-flow: row wrap;
+			justify-content: space-around;
+		  }
+ 
 		#header nav {
 			position: absolute;
 			right: 1em;
