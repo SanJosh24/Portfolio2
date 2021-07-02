@@ -134,6 +134,14 @@
 
 		}
 
+	// Scroll to bottom button.
+		const btnScrollToBottom = document.querySelector(".btnScrollToBottom");
+
+		btnScrollToBottom.addEventListener("click", function () {
+			window.scrollTo(0,document.body.scrollHeight);
+		});
+		
+
 	// Spotlights.
 		var $spotlights = $('.spotlight');
 

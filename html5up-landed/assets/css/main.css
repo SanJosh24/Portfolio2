@@ -2854,6 +2854,10 @@ input, select, textarea {
 		white-space: nowrap;
 	}
 
+	.btnScrollToBottom {
+		margin-left: 5vw;
+	}
+
 		input[type="submit"]:hover, input[type="submit"]:active,
 		input[type="reset"]:hover,
 		input[type="reset"]:active,
@@ -3411,7 +3415,7 @@ input, select, textarea {
 		}
 
 		.h1zz {
-			color: #5ee44c;
+			color: #ffffff;
 			display: flex; 
 			justify-content: center;
 			font-size: 3vw;
