@@ -2187,7 +2187,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #5ee44c;
+			background: #ffffff;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -3433,6 +3433,11 @@ input, select, textarea {
 		}
 
 		.speedlogo {
+			width: 15vw;
+			margin: -4vw;
+		}
+
+		.BrainBallTriviaPoster {
 			width: 15vw;
 			margin: -4vw;
 		}
