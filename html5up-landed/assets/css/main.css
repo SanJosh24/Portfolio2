@@ -3437,10 +3437,23 @@ input, select, textarea {
 			margin: -4vw;
 		}
 
-		.BrainBallTriviaPoster {
+		.Poster {
 			width: 15vw;
-			margin: -4vw;
 		}
+
+		.BBlink :hover {
+			color: #febf09;
+		}
+		
+		.OSKlink :hover {
+			color: #ff9910;
+		}
+
+		.CDlink :hover {
+			color: #30b1ff;
+		}
+
+		
 
 		.xlx {
 			display: flex;
